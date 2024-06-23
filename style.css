@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     background-color: rgb(205, 236, 237);
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.header-top{
+    height: 68px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 2px 4px rgb(160, 198, 201);
+}
+/* header */
+
+/* header 1 */
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5.5%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.header-input{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 710px;
+    border-radius: 12px;
+    background-color: rgb(214, 214, 214);
+}
+.header-input  input{
+    width: 94.5%;
+    height: 100%; 
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+/* header part2 */
+.header-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.header-login-text{
+    border: none;
+    font-size: 16px;
+    margin-left: 7px;
+}
+/* * header part3 */
+.logo-card{
+    font-size: 18px;
+}
+.logo-card span{
+    margin-left: 4px;
+}
+/* header part4*/
+.header-seller{
+    font-size: 18px;
+}
+.header-seller span{
+    margin-left: 4px;
+}
+/* header 5 */
+
+.header-icon{
+    font-size: 20px;
+}
+
+/* main start form here */
+.webside-body{
+    width: 98%;
+    margin: auto;
+}
+.main-header{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 9px;
+}
+.main-box img{
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+}
+.main-box span{
+    font-size: 17px;
+    font-weight: 600;
+}
+/* main hero image */
+.main-hero-pic{
+    background-image: url(main/hero.webp);
+    height: 250px;
+    background-size: cover;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+/* shop section in main */
+
+.shop-section-div1{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    margin-top: 12px;
+}
+.shop-section-div2{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 96%;
+   margin: auto;
+   margin-top: 25px;
+}
+.shop-section-div2 span{
+   font-weight: 600;
+   font-size: 20px;
+}
+.main-shop-section{
+    height: 295px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* shop box1 */
+.box-shop{
+     height: 260px;
+     width: 200px;
+     box-shadow: 0px 1px 3px;
+}
+.box-shop:hover{
+    box-shadow: 0px 6px 8px rgba(111, 153, 179, 0.562);
+}
+.box-img{
+    height: 200px;
+    background-size: cover;
+}
+/* text */
+.box-shop-main-div{
+    margin-top: 14px;
+    text-align: center;
+}
+.box-shop-main-div2 span{
+    font-weight: 600;
+    font-size: 14px;
+}
+.box-shop-main-div2 p{
+   font-size: .95rem;
+}
+/* header main image */
+.main-section-image-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+.main-section-image-part-1{
+    width: 100%;
+}
+.main-section-image-part-2{
+    height: 282px;
+    width: 492px;
+    background-repeat: no-repeat;
+}
+
+/* footer start from here */
+
+.header-footer{
+    margin-top: 13pxx;
+    background-color: rgb(33, 24, 24);
+    height: 240px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-footer ul{
+    margin-top: 50px;
+}
+.header-footer p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #878787;
+}
+.header-footer ul li{
+    list-style: none;
+}
+.header-footer ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 13px;
+   font-weight: 600;
+}
+/* footer down */
+.footer-down{
+    height: 80px;
+    background-color:  rgb(33, 24, 24);
+    color: white;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-down p{
+    font-size: 14px ;
+}
+
